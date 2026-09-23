@@ -6,7 +6,7 @@ public abstract class Localizacao {
 
     // Lógica principal do jogo que independe de qual inimigo é.
     public void iniciarFase() {
-        System.out.println("\n--- Jogador entrou em uma nova regiao... ---");
+        System.out.println("\n--- Jogador entrou em uma nova região... ---");
         
         // Chamamos o Método Fábrica para obter o inimigo daquela região específica
         Inimigo inimigoDaFase = criarInimigo();
